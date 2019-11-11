@@ -32,7 +32,7 @@ def total_even_pairs(src)
   total = 0
   src.each do |num|
     if num[0] % 2 == 0 && num[1] % 2 == 0
-      total += num 
+      total += num[0] + num[1]
     end
   end
   return total
